@@ -1,0 +1,26 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+  }
+  
+  .categories, .products, .product-info {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .category {
+    cursor: pointer;
+    list-style: none;
+  }
+  
+  .products ul, .product-info {
+    display: none;
+  }
+  
+  .buy-button {
+    display: block;
+    margin-top: 10px;
+  }
+  
